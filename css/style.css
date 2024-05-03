@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body{
+    min-height: 100dvh;
+    background: url('../assets/images/wall4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.main-hero-section{
+  height: 90vh;
+  color: #6200ff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 151px #0fa;
+}
+.main-hero-section .left img{
+  height: 13rem;
+}
+.main-hero-section .right h2,p{
+  font-weight: bold;
+}
+
+.main-btn {
+  padding: 10px 30px; 
+  margin-top: 30px; 
+  border-radius: 5rem;
+  border: 0; 
+  cursor: pointer; 
+  color: #000000;
+  font-size: 1em;
+  font-weight: 600;
+  transition: 0.3s all ease;
+}
+.main-btn:hover {
+  color: #fff; 
+  background: hsl(300, 69%, 71%); 
+}
+

@@ -1,0 +1,11 @@
+/* @media print{
+    body *{
+      visibility: hidden;
+    }
+  .table *{
+    font-size: 10px;
+    page-break-inside: auto;
+    width: fit-content;
+    visibility: visible;
+    }
+  } */
